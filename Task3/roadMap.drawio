@@ -1,0 +1,151 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Страница — 1" id="7bfxBKNZg6GtCPhx7CM3">
+    <mxGraphModel dx="3029" dy="2237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="440" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="560" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="680" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="800" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="920" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-1" value="Q1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-5" value="Инфраструктурная команда" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-6" value="Команда инноваций" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-7" value="Команда домена медицинских данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-8" value="Команда продукта ИИ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-9" value="Команда продукта финтех" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-10" value="&lt;b&gt;Цели бизнеса:&lt;/b&gt;&lt;div&gt;1. Сделать удобную витрину данных&lt;/div&gt;&lt;div&gt;2. Сотрудники должны иметь возможность конструировать отчеты самостоятельно&lt;/div&gt;&lt;div&gt;3. Новая архитектура работы с данными. Для облегчения интеграции нового бизнеса.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;q1 - Сформировано архитектурное решение по трансформации. Уточнены границы доменов и связи между ними. План реализации витрины данных&lt;/div&gt;&lt;div&gt;q1-q4 - Реализован портал самообслуживания.&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1881" y="350" width="599" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-11" value="Команда домена управления клиниками" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-12" value="Команда домена управления организацией" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-13" value="Команда домена аналитики" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-14" value="Формирование архитектурного решения, определение границ доменов и связей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-15" value="Обучение сотрудников работы с Data Lakehouse решением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-16" value="Обучение сотрудников работы с Data Lakehouse решением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-17" value="Обучение сотрудников работы с Data Lakehouse решением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="580" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-18" value="Обучение сотрудников работы с Data Lakehouse решением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-19" value="Обучение сотрудников работы с Data Lakehouse решением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="820" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-20" value="Обучение сотрудников работы с Data Lakehouse решением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="940" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-21" value="Обучение сотрудников работы с Data Lakehouse решением" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-22" value="Развертывание инфраструктуры Data LakeHouse&lt;div&gt;(MinIO, Nessie, Dremio, DataHub AirFlow)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-24" value="Разработка нового приложения для мед персонала" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-25" value="Разработка нового приложения для администрации клиник" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-26" value="Интеграция нового приложения с airflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="370" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-27" value="Интеграция нового приложения с airflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="460" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-28" value="Создание витрины данных уже с учетом новых данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="340" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-29" value="Создание витрины данных для аналитиков" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="460" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-30" value="Q2" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-31" value="Q3" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-32" value="Q4" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-33" value="Планирование переноса данных из DHW в Data LakeHouse." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-34" value="Перенос данных из DHW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-35" value="Создание витрины данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="580" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-36" value="Использование витрин данных для генерации отчетов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="700" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-37" value="Использование мед. витрины данных для ИИ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="810" width="385" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-38" value="Вывод DHW из эксплуатации&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1881" y="220" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-39" value="Создание витрины данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="940" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-40" value="Создание витрины на основе старых данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="340" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-49" value="Оказание поддержки доменным командам." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="220" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-52" value="Интеграция ИИ с витринной данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="810" width="385" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn2wDF9BB-KdJCNYpCvU-54" value="&lt;b&gt;Обоснование изменений&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Первый этап&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;- &lt;u&gt;Формирование архитектурного решения&lt;/u&gt; - без&amp;nbsp; тщательно проработанной архитектуры сложно оценить стоимость изменений и риски.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;- &lt;u&gt;Обучение сотрудников&lt;/u&gt; - для ускоренного погружения сотрудников в технологии которыми предстоит пользоваться&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Второй этап&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- &lt;u&gt;Развертывание инфраструктуры Data LakeHouse &lt;/u&gt;- требуется для постройки витрины данных.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- &lt;u&gt;Планирование и&amp;nbsp; перенос данных&lt;/u&gt; - необходимо для переключения старых сервисов на новые системы.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- &lt;u&gt;Разработка новых сервисов для медицины&lt;/u&gt; - позволит перейти на более современные технологии и отказаться от прямого взаимодействия с DHW&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Третий этап&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- &lt;u&gt;Интеграция новых мед. приложений с airflow&lt;/u&gt; - Для отправки данных в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Data LakeHouse&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- &lt;u&gt;Создание витрин данных доменными командами&lt;/u&gt;- Подготовка первых витрин для работы аналитиков&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- &lt;u&gt;Интеграции ИИ с витриной данных&lt;/u&gt; - Позволит команде ИИ перейти на новое решение&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Четвертый этап&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- &lt;u&gt;Использование витрин данных для генерации отчетов&lt;/u&gt; - Создание первых отчетов и оценка работы системы.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Пятый этап&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;Вывод из эксплуатации DHW на основе MS SQL 2008&lt;/u&gt; - MS SQL 2008 устарел и больше не поддерживается. Есть риски эксплуатации уязвимостей.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1881" y="610" width="600" height="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

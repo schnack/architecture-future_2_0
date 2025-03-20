@@ -14,7 +14,7 @@
 
 ## Задание 3
 
-#### Технический радар
+### Технический радар
 ![](Task3/tech_radar.png)
 
 Для запуска интерактивной версии:
@@ -24,3 +24,7 @@ npm install
 npm run serve
 ```
 
+### Роадмап
+
+[RoadMap](Task3/roadMap.drawio)
+![RoadMap](Task3/roadMap.drawio.png)
