@@ -1,0 +1,444 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
+    <mxGraphModel dx="2867" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bi-JPfnhNSues8XdKqLz-2" value="Медицинский домен" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="890" width="1280" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-11" value="Витрина медицинских данных для ИИ" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-2" vertex="1">
+          <mxGeometry x="940" y="50" width="255" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-2" source="bi-JPfnhNSues8XdKqLz-40" target="bi-JPfnhNSues8XdKqLz-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-54" value="Медицинские данные пациента" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-53" vertex="1" connectable="0">
+          <mxGeometry x="0.2344" y="2" relative="1" as="geometry">
+            <mxPoint x="-57" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-40" value="Мед персонал" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-2" vertex="1">
+          <mxGeometry x="30" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-49" value="1.1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-2" vertex="1">
+          <mxGeometry x="270" y="58" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-50" value="Оказание помощи" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-49" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-57" value="Хранилище мед. данных" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-2" vertex="1">
+          <mxGeometry x="580" y="73" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-2" source="bi-JPfnhNSues8XdKqLz-50" target="bi-JPfnhNSues8XdKqLz-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-60" value="Результаты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-59" vertex="1" connectable="0">
+          <mxGeometry x="-0.4961" y="1" relative="1" as="geometry">
+            <mxPoint x="43" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-91" value="1.2" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-2" vertex="1">
+          <mxGeometry x="350" y="220" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-92" value="Фиксация данных о болезнях и лечении" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-91" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.517;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bi-JPfnhNSues8XdKqLz-2" source="bi-JPfnhNSues8XdKqLz-91" target="bi-JPfnhNSues8XdKqLz-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-94" value="Структ. и не структ мед данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-93" vertex="1" connectable="0">
+          <mxGeometry x="-0.1034" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-100" value="Владелец домена данных" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-2" vertex="1">
+          <mxGeometry x="1040" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-98" value="1.3" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-2" vertex="1">
+          <mxGeometry x="850" y="210" width="140" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-99" value="Формирование витрины данных" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-98" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.036;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.002;exitY=0.388;exitDx=0;exitDy=0;exitPerimeter=0;" parent="bi-JPfnhNSues8XdKqLz-2" source="bi-JPfnhNSues8XdKqLz-57" target="bi-JPfnhNSues8XdKqLz-99" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-104" value="Мед. данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-103" vertex="1" connectable="0">
+          <mxGeometry x="-0.4191" y="-2" relative="1" as="geometry">
+            <mxPoint y="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-2" source="bi-JPfnhNSues8XdKqLz-100" target="bi-JPfnhNSues8XdKqLz-99" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bi-JPfnhNSues8XdKqLz-2" source="bi-JPfnhNSues8XdKqLz-98" target="bi-JPfnhNSues8XdKqLz-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-102" value="Данные как продут" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-101" vertex="1" connectable="0">
+          <mxGeometry x="-0.2308" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-3" value="Финтех домен" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="1620" width="940" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-3" source="bi-JPfnhNSues8XdKqLz-10" target="bi-JPfnhNSues8XdKqLz-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-27" value="Фин. данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.3731" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-10" value="Хранилище данных" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-3" vertex="1">
+          <mxGeometry x="240" y="290" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-3" source="bi-JPfnhNSues8XdKqLz-12" target="bi-JPfnhNSues8XdKqLz-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-12" value="Сотрудник банка" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-3" vertex="1">
+          <mxGeometry x="20" y="205" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-13" value="Витрина данных" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-3" vertex="1">
+          <mxGeometry x="760" y="50" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-3" source="bi-JPfnhNSues8XdKqLz-14" target="bi-JPfnhNSues8XdKqLz-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-14" value="Владелец домена данных" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-3" vertex="1">
+          <mxGeometry x="760" y="290.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-3" source="bi-JPfnhNSues8XdKqLz-15" target="bi-JPfnhNSues8XdKqLz-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-33" value="Данные клиента" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.2305" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-15" value="Системы банка" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-3" vertex="1">
+          <mxGeometry x="20" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-17" value="1.1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-3" vertex="1">
+          <mxGeometry x="240" y="100" width="140" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-18" value="Финансовые операции" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-17" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bi-JPfnhNSues8XdKqLz-3" source="bi-JPfnhNSues8XdKqLz-17" target="bi-JPfnhNSues8XdKqLz-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-20" value="Фиксация финансовых операций" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.0781" y="3" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-24" value="1.2" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-3" vertex="1">
+          <mxGeometry x="510" y="280" width="140" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-25" value="Формирование витрины данных" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-24" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.292;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="bi-JPfnhNSues8XdKqLz-3" source="bi-JPfnhNSues8XdKqLz-24" target="bi-JPfnhNSues8XdKqLz-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-30" value="Данные как продукт" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.3302" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-6" value="Домен аналитики" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="1470" width="840" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-38" value="Витрина данных" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-6" vertex="1">
+          <mxGeometry x="650" y="60" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-6" source="bi-JPfnhNSues8XdKqLz-37" target="bi-JPfnhNSues8XdKqLz-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-37" value="Аналитики" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-6" vertex="1">
+          <mxGeometry x="50" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-167" value="1.1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-6" vertex="1">
+          <mxGeometry x="320" y="154" width="140" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-168" value="Обработка данных" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-167" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=1.073;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bi-JPfnhNSues8XdKqLz-6" source="bi-JPfnhNSues8XdKqLz-167" target="bi-JPfnhNSues8XdKqLz-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-172" value="Бизнес отчеты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-171" vertex="1" connectable="0">
+          <mxGeometry x="-0.5121" y="10" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-16" target="bi-JPfnhNSues8XdKqLz-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-16" target="bi-JPfnhNSues8XdKqLz-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-36" value="Данные клиента" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-35" vertex="1" connectable="0">
+          <mxGeometry x="-0.6388" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-16" value="Клиент банка" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="1745" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-41" target="bi-JPfnhNSues8XdKqLz-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-45" value="Медицинские данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.4717" y="-3" relative="1" as="geometry">
+            <mxPoint x="52" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-41" target="bi-JPfnhNSues8XdKqLz-71" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="1365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-96" value="Персональные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-95" vertex="1" connectable="0">
+          <mxGeometry x="0.2505" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-41" value="Пациент" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="1110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-64" value="Домен управления клиниками" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="1280" width="1280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-66" value="Витрина для аналитики работы клиники" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-64" vertex="1">
+          <mxGeometry x="1000" y="100" width="255" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-64" source="bi-JPfnhNSues8XdKqLz-71" target="bi-JPfnhNSues8XdKqLz-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-70" value="Данные работы клиники" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-69" vertex="1" connectable="0">
+          <mxGeometry x="-0.2794" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-71" value="Администратор" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-64" vertex="1">
+          <mxGeometry x="20" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-74" value="1.1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-64" vertex="1">
+          <mxGeometry x="350" y="40" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-75" value="Фиксация расписаний, записей, оплат" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-74" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-64" source="bi-JPfnhNSues8XdKqLz-77" target="bi-JPfnhNSues8XdKqLz-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-87" value="Бизнес данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-86" vertex="1" connectable="0">
+          <mxGeometry x="-0.0418" y="-7" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-77" value="Хранилище бизнес данных" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-64" vertex="1">
+          <mxGeometry x="650" y="66" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.067;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bi-JPfnhNSues8XdKqLz-64" source="bi-JPfnhNSues8XdKqLz-75" target="bi-JPfnhNSues8XdKqLz-77" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-81" value="Бизнес данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-80" vertex="1" connectable="0">
+          <mxGeometry x="-0.3928" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-64" source="bi-JPfnhNSues8XdKqLz-85" target="bi-JPfnhNSues8XdKqLz-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-85" value="Владелец домена данных" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-64" vertex="1">
+          <mxGeometry x="520" y="196" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-83" value="1.2" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-64" vertex="1">
+          <mxGeometry x="720" y="170" width="140" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-84" value="Формирование витрины данных" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-83" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="bi-JPfnhNSues8XdKqLz-64" source="bi-JPfnhNSues8XdKqLz-84" target="bi-JPfnhNSues8XdKqLz-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-90" value="Данные как продукт" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-89" vertex="1" connectable="0">
+          <mxGeometry x="0.0626" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-11" target="bi-JPfnhNSues8XdKqLz-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="757.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-109" value="Медицинские данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-108" vertex="1" connectable="0">
+          <mxGeometry x="0.1404" y="-6" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-117" target="bi-JPfnhNSues8XdKqLz-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-121" value="Консультация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-120" vertex="1" connectable="0">
+          <mxGeometry x="-0.4303" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-66" target="bi-JPfnhNSues8XdKqLz-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="1410" />
+              <mxPoint x="1390" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-144" value="Бизнес данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-142" vertex="1" connectable="0">
+          <mxGeometry x="-0.3575" y="-12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-13" target="bi-JPfnhNSues8XdKqLz-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-145" value="Бизнес данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-143" vertex="1" connectable="0">
+          <mxGeometry x="-0.4204" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-148" value="Домен управления организацией" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="890" width="940" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-148" source="bi-JPfnhNSues8XdKqLz-151" target="bi-JPfnhNSues8XdKqLz-161" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-150" value="данные бизнеса" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-149" vertex="1" connectable="0">
+          <mxGeometry x="-0.3731" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-151" value="Хранилище данных" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-148" vertex="1">
+          <mxGeometry x="240" y="290" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-148" source="bi-JPfnhNSues8XdKqLz-153" target="bi-JPfnhNSues8XdKqLz-158" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-153" value="Сотрудники организации" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-148" vertex="1">
+          <mxGeometry x="20" y="205" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-154" value="Витрина данных" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" parent="bi-JPfnhNSues8XdKqLz-148" vertex="1">
+          <mxGeometry x="790" y="299.5" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="bi-JPfnhNSues8XdKqLz-148" source="bi-JPfnhNSues8XdKqLz-156" target="bi-JPfnhNSues8XdKqLz-161" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-156" value="Владелец домена данных" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="bi-JPfnhNSues8XdKqLz-148" vertex="1">
+          <mxGeometry x="490" y="132" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-157" value="1.1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-148" vertex="1">
+          <mxGeometry x="240" y="100" width="140" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-158" value="Данные бизнеса" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-157" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;" parent="bi-JPfnhNSues8XdKqLz-148" source="bi-JPfnhNSues8XdKqLz-157" target="bi-JPfnhNSues8XdKqLz-151" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-160" value="фиксация данных бизнеса" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-159" vertex="1" connectable="0">
+          <mxGeometry x="-0.0781" y="3" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-161" value="1.2" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="bi-JPfnhNSues8XdKqLz-148" vertex="1">
+          <mxGeometry x="530" y="279.5" width="140" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-162" value="Формирование витрины данных" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-161" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.292;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="bi-JPfnhNSues8XdKqLz-148" source="bi-JPfnhNSues8XdKqLz-162" target="bi-JPfnhNSues8XdKqLz-154" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-164" value="Данные как продукт" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-163" vertex="1" connectable="0">
+          <mxGeometry x="-0.3302" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-154" target="bi-JPfnhNSues8XdKqLz-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2267" y="1620" />
+              <mxPoint x="2270" y="1620" />
+              <mxPoint x="2270" y="1880" />
+              <mxPoint x="1510" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-166" value="Бизнес данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-165" vertex="1" connectable="0">
+          <mxGeometry x="-0.0324" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="bi-JPfnhNSues8XdKqLz-38" target="bi-JPfnhNSues8XdKqLz-153" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2190" y="1555" />
+              <mxPoint x="2190" y="1370" />
+              <mxPoint x="1440" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-175" value="Бизнес отчеты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-173" vertex="1" connectable="0">
+          <mxGeometry x="0.2185" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-176" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Логика разделения&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Медицинские домен - предназначен для работы со структурированными и не структурированными данными, на которых в дальнейшем происходит обучение ИИ.&lt;/li&gt;&lt;li&gt;Домен управления клиниками - собирает бизнес показатели работы клиники.&lt;/li&gt;&lt;li&gt;Финтех домен - специализируется на финансовых операциях и работе банка.&lt;/li&gt;&lt;li&gt;Домен управления организации - собирает все отчеты по всем бизнесам и на основе них принимает управленческие решения.&lt;/li&gt;&lt;li&gt;Домен аналитики - Анализирует работу бизнесов и формирует отчеты&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Преимущества&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Данные перестают быть разнородными и меньше противоречат друг другу.&lt;/li&gt;&lt;li&gt;Команды теперь отвечают за данные конкретной предметной области. Оказывает положительное влияние на обработку данных.&lt;/li&gt;&lt;li&gt;Каждый домен может развиваться не зависимо.&lt;/li&gt;&lt;li&gt;Повышение производительности за счет уменьшения количества обрабатываемых данных.&lt;/li&gt;&lt;li&gt;Проще контролировать права доступа к данным.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="510" width="880" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tvGyVfRIuTY0e-7UG9lK-1" value="ИИ домен" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="490" width="950" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-110" value="1.1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="tvGyVfRIuTY0e-7UG9lK-1" vertex="1">
+          <mxGeometry x="497.5" y="175" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-111" value="Обучение ИИ" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="bi-JPfnhNSues8XdKqLz-110" vertex="1">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="tvGyVfRIuTY0e-7UG9lK-1" source="bi-JPfnhNSues8XdKqLz-112" target="bi-JPfnhNSues8XdKqLz-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-116" value="Мед. данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-113" vertex="1" connectable="0">
+          <mxGeometry x="0.2626" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-112" value="Система ИИ" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="tvGyVfRIuTY0e-7UG9lK-1" vertex="1">
+          <mxGeometry x="767.5" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="tvGyVfRIuTY0e-7UG9lK-1" source="bi-JPfnhNSues8XdKqLz-114" target="bi-JPfnhNSues8XdKqLz-110" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-114" value="Инженеры ИИ" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="tvGyVfRIuTY0e-7UG9lK-1" vertex="1">
+          <mxGeometry x="507.5" y="55" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-117" value="Приложении ИИ" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="tvGyVfRIuTY0e-7UG9lK-1" vertex="1">
+          <mxGeometry x="87.5" y="195" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="tvGyVfRIuTY0e-7UG9lK-1" source="bi-JPfnhNSues8XdKqLz-111" target="bi-JPfnhNSues8XdKqLz-117" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-JPfnhNSues8XdKqLz-119" value="Модель ИИ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bi-JPfnhNSues8XdKqLz-118" vertex="1" connectable="0">
+          <mxGeometry x="-0.0218" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
