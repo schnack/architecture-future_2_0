@@ -11,3 +11,16 @@
 
 [Домены и потоки данных между ними](Task2/dataFlowDiagram.drawio)
 ![](Task2/dataFlowDiagram.drawio.png)
+
+## Задание 3
+
+#### Технический радар
+![](Task3/tech_radar.png)
+
+Для запуска интерактивной версии:
+```shell
+cd ./Task3/tech_radar
+npm install
+npm run serve
+```
+
